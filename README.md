@@ -25,11 +25,3 @@
   
 - util
   工具类
-
-### Controller definition
-
-- base
-  基于检索词的实时信息检索及智能分析业务
-
-- general
-  基于V3方案的方案信息检索及方案分析业务
