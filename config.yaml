@@ -1,0 +1,32 @@
+# server
+server:
+  runMode: debug # debug / test / release
+  host: localhost
+  port: 8999
+  timezone: Asia/Shanghai
+
+# db
+mysql:
+  store_platform:
+    host: rm-8vbgy7j9l5170r6mwto.mysql.zhangbei.rds.aliyuncs.com
+    port: 3306
+    database: store_platform
+    user: jiaoqingtong
+    password: B8byhH43kn5Ujbk3O1B
+    timezone: Asia/Shanghai
+
+# cache
+redis:
+  store_platform:
+    host: r-2zevlhy4h38w1us2d2pd.redis.rds.aliyuncs.com
+    port: 6379
+    database: 2
+    password: MNOSKJS23L76Ldsfk11
+
+logrus:
+  filename: ./app.log
+
+logs:
+  app:
+    level: debug
+    file: ./runtime/log/app.log
